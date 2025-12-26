@@ -2,33 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
+import Row from '../components/Row';
 
-// Keep Row and Modal placeholders for now
-const Row = ({ section, openModal }) => (
-  <div style={{ padding: '2rem', borderBottom: '1px solid #333' }} data-section>
-    <h2>{section.title}</h2>
-    <div style={{ display: 'flex', gap: '1rem', overflowX: 'auto' }}>
-      {section.items.map((item) => (
-        <div
-          key={item.id}
-          onClick={() => openModal(item)}
-          style={{
-            minWidth: '300px',
-            height: '180px',
-            background: '#444',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            padding: '1rem',
-          }}
-        >
-          <h3>{item.title}</h3>
-          <p>{item.subtitle}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-);
-
+// Keep Modal placeholder for now
 const Modal = ({ item, isOpen, closeModal }) => {
   if (!isOpen || !item) return null;
   return (
@@ -65,15 +41,16 @@ const PageContainer = styled.div`
 
 const RowsContainer = styled.div`
   padding-bottom: 4rem;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 function Home({ profile, sections, selectedItem, isModalOpen, openModal, closeModal }) {
   return (
     <PageContainer>
       <Navbar profile={profile} />
-      
       <Banner profile={profile} />
 
+      {/* Real Row Component */}
       <RowsContainer>
         {sections.map((section) => (
           <Row key={section.id} section={section} openModal={openModal} />
