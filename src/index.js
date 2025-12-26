@@ -5,14 +5,9 @@ import App from './App';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { theme } from './styles/theme';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import './index.css';
 
-const rootElement = document.getElementById('root');
-
-if (!rootElement) {
-  throw new Error('Root element with id "root" not found');
-}
-
-const root = ReactDOM.createRoot(rootElement);
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>

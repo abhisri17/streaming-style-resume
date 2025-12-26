@@ -2,7 +2,6 @@ const CACHE_NAME = 'streaming-resume-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/static/js/bundle.js',
   '/manifest.json'
 ];
 
