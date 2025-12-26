@@ -1,16 +1,16 @@
 {
   "profile": {
     "name": "Abhinav Srivastava",
-    "title": "Senior Software Engineer",
-    "summary": "6+ years of hands-on experience in software development across the complete SDLC. Expert in JavaScript and modern frontend frameworks like React and Redux, skilled in building scalable and high-performance web applications.",
+    "title": "Senior Software Engineer | Frontend Developer | ReactJS Specialist",
+    "summary": "Over 7 years of hands-on experience in IT industry, proficiently navigating the complexities of the Software Development Life Cycle (SDLC). Demonstrated expertise in crafting captivating user experiences as a front-end web developer, with a mastery of ReactJS. Supported employee growth and development by spearheading comprehensive training programs for all new recruits.",
     "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1600&h=900&fit=crop&q=80",
-    "location": "Bangalore, India",
+    "location": "Bengaluru, Karnataka, India",
     "email": "abhinavsrivastava1705@gmail.com",
     "phone": "+91-9807738772",
     "social": [
       {
         "platform": "LinkedIn",
-        "url": "https://linkedin.com/in/abhinavsrivastava17",
+        "url": "https://www.linkedin.com/in/abhinavsrivastava17",
         "icon": "linkedin"
       },
       {
@@ -32,7 +32,7 @@
           "subtitle": "Lowe's India • Sep 2024 - Present",
           "description": "Engineered and maintained large-scale, responsive e-commerce features using ReactJS and Redux, improving user engagement by 15%. Led the migration of legacy UI components to a modern, reusable component library.",
           "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500&h=280&fit=crop&q=80",
-          "tags": ["React", "Redux", "E-commerce", "Component Library"],
+          "tags": ["React", "Redux", "Camunda BPM", "E-commerce"],
           "date": "Sep 2024 - Present",
           "highlights": [
             "Engineered large-scale responsive e-commerce features improving user engagement by 15%",
@@ -46,12 +46,13 @@
           "subtitle": "Lowe's India • Sep 2022 - Sep 2024",
           "description": "Developed new frontend features with React and Redux, improving user experience and engagement. Collaborated with UX designers and backend teams to translate mockups into functional, high-quality code.",
           "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=280&fit=crop&q=80",
-          "tags": ["React", "Redux", "UX Collaboration"],
+          "tags": ["React", "Redux", "JavaScript", "CI/CD"],
           "date": "Sep 2022 - Sep 2024",
           "highlights": [
             "Developed new frontend features with React and Redux",
             "Collaborated with UX designers and backend teams",
-            "Translated mockups into functional, high-quality code"
+            "Implemented CI/CD pipelines for streamlined deployment",
+            "Awarded Lowe's Team Excellence Award"
           ]
         },
         {
@@ -60,12 +61,12 @@
           "subtitle": "EPAM Systems • June 2022 - Sep 2022",
           "description": "Developed a Progressive Web Application (PWA) for a retail client's supply chain management, automating inventory and reporting processes. Collaborated with backend teams to integrate RESTful APIs.",
           "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=280&fit=crop&q=80",
-          "tags": ["PWA", "REST API", "Supply Chain"],
+          "tags": ["PWA", "React", "Supply Chain", "REST API"],
           "date": "June 2022 - Sep 2022",
           "highlights": [
             "Developed PWA for retail supply chain management",
             "Automated inventory and reporting processes",
-            "Integrated RESTful APIs ensuring seamless data flow"
+            "Delivered high-quality frontend solutions on tight deadlines"
           ]
         },
         {
@@ -74,7 +75,7 @@
           "subtitle": "Tata Consultancy Services • Mar 2020 - June 2022",
           "description": "Developed and enhanced features for various client projects, primarily using ReactJS for frontend services. Participated in the full Software Development Life Cycle (SDLC).",
           "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500&h=280&fit=crop&q=80",
-          "tags": ["React", "SDLC", "Client Projects"],
+          "tags": ["React", "SDLC", "JavaScript", "Client Projects"],
           "date": "Mar 2020 - June 2022",
           "highlights": [
             "Developed features for various client projects using ReactJS",
@@ -191,48 +192,58 @@
     },
     {
       "id": "skills",
-      "title": "Technical Skills",
+      "title": "Technical Skills & Certifications",
       "type": "skill",
       "items": [
         {
           "id": "skill-1",
           "title": "Frontend Development",
           "subtitle": "Modern Web Technologies",
-          "description": "Expert in React ecosystem with Redux, skilled in building scalable and high-performance web applications. Proficient in JavaScript ES6+, HTML5, and CSS3.",
+          "description": "Expert in the React ecosystem with Redux and Camunda BPM, specializing in building scalable, high-performance web applications. Demonstrates strong mastery of ReactJS as a cornerstone of modern web development, with proficiency in JavaScript (ES6+), HTML5, CSS3, and modern frameworks and libraries.",
           "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&h=280&fit=crop&q=80",
-          "tags": ["React", "Redux", "JavaScript", "HTML5", "CSS3"],
+          "tags": [
+            "React",
+            "Redux",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Camunda BPM"
+          ],
           "highlights": [
             "ReactJS with modern hooks and patterns",
             "Redux for state management",
             "JavaScript ES6+ features",
-            "Responsive HTML5 & CSS3"
+            "Camunda BPM workflow automation",
+            "Certified: React - The Complete Guide (incl Hooks, Router, Redux)",
+            "Certified: JavaScript, HTML and CSS Web Development"
           ]
         },
         {
           "id": "skill-2",
-          "title": "Backend & Database",
+          "title": "Backend & Integration",
           "subtitle": "Server Technologies",
-          "description": "Experience with NodeJS for backend services and SQL for database management. Skilled in building RESTful APIs and data persistence layers.",
+          "description": "Experience with NodeJS for backend services and API integration. Skilled in building RESTful APIs and seamless client-server communication.",
           "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=280&fit=crop&q=80",
           "tags": ["NodeJS", "SQL", "REST API"],
           "highlights": [
             "NodeJS backend development",
             "SQL database design and optimization",
             "RESTful API integration",
-            "Data persistence strategies"
+            "Client-server application design",
+            "Data flow optimization"
           ]
         },
         {
           "id": "skill-3",
           "title": "DevOps & Tools",
           "subtitle": "Development Workflow",
-          "description": "Proficient in modern development tools and CI/CD pipelines. Experience with Git, Grafana, Camunda, VS Code, and Postman for efficient development and deployment.",
+          "description": "Skilled in implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines to streamline software delivery processes. Proficient in modern development tools.",
           "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=500&h=280&fit=crop&q=80",
-          "tags": ["Git", "CI/CD", "Grafana", "Camunda"],
+          "tags": ["Git", "CI/CD", "Grafana", "Visual Studio Code"],
           "highlights": [
-            "Git version control and workflows",
             "CI/CD pipeline implementation",
-            "Grafana for monitoring",
+            "Git version control workflows",
+            "Grafana monitoring",
             "Agile and DevOps practices"
           ]
         },
@@ -247,7 +258,58 @@
             "Data structures and algorithms",
             "Object-oriented programming principles",
             "Agile/Scrum methodologies",
-            "Code review and mentoring"
+            "English: Full Professional Proficiency",
+            "Hindi: Native or Bilingual Proficiency",
+            "Training & mentoring new developers",
+            "Problem Solving (Basic) - Certified",
+            "Code review and best practices"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "title": "Honors & Awards",
+      "type": "experience",
+      "items": [
+        {
+          "id": "award-1",
+          "title": "Lowe's Awards",
+          "subtitle": "Multiple Awards • 2022-2024",
+          "description": "Recognized for outstanding performance and contributions to the team with multiple awards including Spot Awards, Team Excellence Award, and Individual Excellence Award for exceptional frontend development work.",
+          "image": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=500&h=280&fit=crop&q=80",
+          "tags": [
+            "Recognition",
+            "Team Excellence",
+            "Individual Excellence",
+            "Lowe's"
+          ],
+          "date": "2022 - 2024",
+          "highlights": [
+            "Lowe's Spot Award (Multiple) - Recognized for exceptional project delivery",
+            "Lowe's Team Excellence Award - Acknowledged for outstanding team collaboration",
+            "Lowe's Individual Excellence Award - Honored for technical leadership",
+            "Consistently exceeded performance expectations in frontend development"
+          ]
+        },
+        {
+          "id": "award-2",
+          "title": "TCS Awards",
+          "subtitle": "Training Excellence & Leadership • 2018-2022",
+          "description": "Achieved top rank in Initial Learning Program (ILP) training, earning the prestigious 'Star Performer' title. Selected for elite coding committee and Digital Cadre program for exceptional technical excellence.",
+          "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=280&fit=crop&q=80",
+          "tags": [
+            "Star Performer",
+            "Coding Committee",
+            "Digital Cadre",
+            "TCS"
+          ],
+          "date": "2018 - 2022",
+          "highlights": [
+            "Scored first rank in ILP training batch of 100+ students, awarded 'Star Performer' title",
+            "Selected for TCS Coding Committee to create problem statements for internal and external examinations",
+            "Inducted into exclusive TCS Digital Cadre program for advanced technology training",
+            "Contributed to question bank development for TCS recruitment and assessment platforms"
           ]
         }
       ]
@@ -261,15 +323,30 @@
           "id": "edu-1",
           "title": "Bachelor of Technology",
           "subtitle": "Information Technology",
-          "description": "Graduated from Cochin University of Science And Technology with a CGPA of 7.55/10.00. Focused on core CS fundamentals including data structures, algorithms, and database systems.",
+          "description": "Graduated from Cochin University of Science And Technology with Bachelor's Degree in Information Technology scored CGPA of 7.55/10.00. Focused on core CS fundamentals including data structures, algorithms, and database systems.",
           "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500&h=280&fit=crop&q=80",
-          "tags": ["Computer Science", "Information Technology"],
-          "date": "Graduated May 2018",
+          "tags": ["Computer Science", "Information Technology", "B.Tech"],
+          "date": "2014 - 2018",
           "highlights": [
             "CGPA: 7.55/10.00",
+            "Bachelor's Degree in Information Technology",
             "Cochin University of Science And Technology, Kochi",
             "Relevant Coursework: Data Structures, Algorithms, DBMS, OOP",
             "Strong foundation in software engineering principles"
+          ]
+        },
+        {
+          "id": "edu-2",
+          "title": "High School",
+          "subtitle": "Science Stream",
+          "description": "Completed high school education from City Montessori School with focus on Science stream, building foundational knowledge in mathematics and sciences.",
+          "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=500&h=280&fit=crop&q=80",
+          "tags": ["Science", "Intermdiate", "High School"],
+          "date": "2001 - 2013",
+          "highlights": [
+            "City Montessori School",
+            "Science Stream",
+            "Strong foundation in mathematics and sciences"
           ]
         }
       ]
