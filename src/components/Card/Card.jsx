@@ -223,7 +223,6 @@ function Card({ item, sectionType, onClick }) {
             onError={handleImageError}
             onLoad={handleImageLoad}
             style={{ display: imageLoaded ? 'block' : 'none' }}
-            loading="lazy"
           />
         </>
       ) : (

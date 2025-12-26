@@ -63,7 +63,7 @@ const ContentWrapper = styled.div`
 `;
 
 const BannerContent = styled.div`
-  max-width: 700px;
+  max-width: 850px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     max-width: 100%;
@@ -108,7 +108,7 @@ const Summary = styled.p`
   line-height: 1.6;
   color: ${({ theme }) => theme.colors.text};
   margin: 0 0 2rem 0;
-  max-width: 650px;
+  max-width: 750px;
   font-weight: 400;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
