@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
 import Row from '../components/Row';
 import Modal from '../components/Modal';
+import Footer from '../components/Footer';
+import ScrollToTop from '../components/ScrollToTop';
 
 const PageContainer = styled.div`
   width: 100%;
@@ -15,7 +17,6 @@ const RowsContainer = styled.div`
 `;
 
 function Home({ profile, sections, selectedItem, isModalOpen, openModal, closeModal }) {
-  // Find the section type of the selected item
   const getSectionType = () => {
     if (!selectedItem) return null;
     const section = sections.find((s) => s.items.some((item) => item.id === selectedItem.id));
@@ -33,7 +34,9 @@ function Home({ profile, sections, selectedItem, isModalOpen, openModal, closeMo
         ))}
       </RowsContainer>
 
-      {/* Real Modal Component */}
+      <Footer profile={profile} />
+      <ScrollToTop />
+
       <Modal
         item={selectedItem}
         isOpen={isModalOpen}
