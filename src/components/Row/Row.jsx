@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
+import Card from '../Card';
 
 // Styled Components
 const RowContainer = styled.div`
@@ -136,80 +137,49 @@ const ScrollButton = styled.button`
   }
 `;
 
-// Placeholder Card styled component (will be replaced with real Card component in Step 8)
-const PlaceholderCard = styled.div`
-  min-width: 320px;
-  max-width: 320px;
-  height: 180px;
-  background-color: ${({ theme }) => theme.colors.surface};
-  border-radius: ${({ theme }) => theme.layout.borderRadius};
-  cursor: pointer;
-  transition: all ${({ theme }) => theme.transitions.normal};
-  overflow: hidden;
-  position: relative;
-  box-shadow: ${({ theme }) => theme.shadows.card};
-  border: 1px solid ${({ theme }) => theme.colors.border};
+// const CardContent = styled.div`
+//   padding: 1.25rem;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 0.5rem;
+// `;
 
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
-    border-color: ${({ theme }) => theme.colors.primary};
-  }
+// const CardTitle = styled.h3`
+//   font-size: 1.1rem;
+//   font-weight: 600;
+//   color: ${({ theme }) => theme.colors.text};
+//   margin: 0;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   display: -webkit-box;
+//   -webkit-line-clamp: 2;
+//   -webkit-box-orient: vertical;
+// `;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    min-width: 100%;
-    max-width: 100%;
-    height: 160px;
+// const CardSubtitle = styled.p`
+//   font-size: 0.9rem;
+//   color: ${({ theme }) => theme.colors.textMuted};
+//   margin: 0;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   white-space: nowrap;
+// `;
 
-    &:hover {
-      transform: scale(1.02);
-    }
-  }
-`;
+// const CardTags = styled.div`
+//   display: flex;
+//   gap: 0.5rem;
+//   flex-wrap: wrap;
+//   margin-top: auto;
+// `;
 
-const CardContent = styled.div`
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-`;
-
-const CardTitle = styled.h3`
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: ${({ theme }) => theme.colors.text};
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-`;
-
-const CardSubtitle = styled.p`
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.colors.textMuted};
-  margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-`;
-
-const CardTags = styled.div`
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-top: auto;
-`;
-
-const Tag = styled.span`
-  font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-  background-color: rgba(229, 9, 20, 0.15);
-  color: ${({ theme }) => theme.colors.primary};
-  border-radius: 3px;
-  border: 1px solid rgba(229, 9, 20, 0.3);
-`;
+// const Tag = styled.span`
+//   font-size: 0.75rem;
+//   padding: 0.25rem 0.5rem;
+//   background-color: rgba(229, 9, 20, 0.15);
+//   color: ${({ theme }) => theme.colors.primary};
+//   border-radius: 3px;
+//   border: 1px solid rgba(229, 9, 20, 0.3);
+// `;
 
 // Icons
 const IconChevronLeft = () => (
@@ -224,13 +194,11 @@ const IconChevronRight = () => (
   </svg>
 );
 
-// Main Component
 function Row({ section, openModal }) {
   const scrollRef = useRef(null);
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(true);
 
-  // Handle scroll position to show/hide arrows
   const handleScroll = () => {
     if (scrollRef.current) {
       const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
@@ -239,14 +207,12 @@ function Row({ section, openModal }) {
     }
   };
 
-  // Scroll left
   const scrollLeft = () => {
     if (scrollRef.current) {
       scrollRef.current.scrollBy({ left: -400, behavior: 'smooth' });
     }
   };
 
-  // Scroll right
   const scrollRight = () => {
     if (scrollRef.current) {
       scrollRef.current.scrollBy({ left: 400, behavior: 'smooth' });
@@ -267,17 +233,12 @@ function Row({ section, openModal }) {
 
         <CardsWrapper ref={scrollRef} onScroll={handleScroll}>
           {section.items.map((item) => (
-            <PlaceholderCard key={item.id} onClick={() => openModal(item)}>
-              <CardContent>
-                <CardTitle>{item.title}</CardTitle>
-                <CardSubtitle>{item.subtitle}</CardSubtitle>
-                <CardTags>
-                  {item.tags.slice(0, 3).map((tag, index) => (
-                    <Tag key={index}>{tag}</Tag>
-                  ))}
-                </CardTags>
-              </CardContent>
-            </PlaceholderCard>
+            <Card
+              key={item.id}
+              item={item}
+              sectionType={section.type}
+              onClick={openModal}
+            />
           ))}
         </CardsWrapper>
 

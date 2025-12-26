@@ -74,24 +74,24 @@ const NavLinks = styled.div`
   }
 `;
 
-const NavLink = styled.a`
-  color: ${({ theme }) => theme.colors.text};
-  font-size: 0.95rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: color ${({ theme }) => theme.transitions.fast};
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+// const NavLink = styled.a`
+//   color: ${({ theme }) => theme.colors.text};
+//   font-size: 0.95rem;
+//   font-weight: 500;
+//   text-decoration: none;
+//   transition: color ${({ theme }) => theme.transitions.fast};
+//   display: flex;
+//   align-items: center;
+//   gap: 0.5rem;
 
-  &:hover {
-    color: ${({ theme }) => theme.colors.primary};
-  }
+//   &:hover {
+//     color: ${({ theme }) => theme.colors.primary};
+//   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    font-size: 1rem;
-  }
-`;
+//   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+//     font-size: 1rem;
+//   }
+// `;
 
 const SocialLinks = styled.div`
   display: flex;

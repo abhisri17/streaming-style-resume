@@ -3,7 +3,7 @@
     "name": "Abhinav Srivastava",
     "title": "Senior Software Engineer",
     "summary": "6+ years of hands-on experience in software development across the complete SDLC. Expert in JavaScript and modern frontend frameworks like React and Redux, skilled in building scalable and high-performance web applications.",
-    "heroImage": "src/assets/images/hero_image_1.jpg",
+    "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1600&h=900&fit=crop&q=80",
     "location": "Bangalore, India",
     "email": "abhinavsrivastava1705@gmail.com",
     "phone": "+91-9807738772",
@@ -31,7 +31,7 @@
           "title": "Senior Software Engineer",
           "subtitle": "Lowe's India • Sep 2024 - Present",
           "description": "Engineered and maintained large-scale, responsive e-commerce features using ReactJS and Redux, improving user engagement by 15%. Led the migration of legacy UI components to a modern, reusable component library.",
-          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "Redux", "E-commerce", "Component Library"],
           "date": "Sep 2024 - Present",
           "highlights": [
@@ -45,7 +45,7 @@
           "title": "Software Engineer",
           "subtitle": "Lowe's India • Sep 2022 - Sep 2024",
           "description": "Developed new frontend features with React and Redux, improving user experience and engagement. Collaborated with UX designers and backend teams to translate mockups into functional, high-quality code.",
-          "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "Redux", "UX Collaboration"],
           "date": "Sep 2022 - Sep 2024",
           "highlights": [
@@ -59,7 +59,7 @@
           "title": "Software Engineer",
           "subtitle": "EPAM Systems • June 2022 - Sep 2022",
           "description": "Developed a Progressive Web Application (PWA) for a retail client's supply chain management, automating inventory and reporting processes. Collaborated with backend teams to integrate RESTful APIs.",
-          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=280&fit=crop&q=80",
           "tags": ["PWA", "REST API", "Supply Chain"],
           "date": "June 2022 - Sep 2022",
           "highlights": [
@@ -73,7 +73,7 @@
           "title": "Systems Engineer",
           "subtitle": "Tata Consultancy Services • Mar 2020 - June 2022",
           "description": "Developed and enhanced features for various client projects, primarily using ReactJS for frontend services. Participated in the full Software Development Life Cycle (SDLC).",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "SDLC", "Client Projects"],
           "date": "Mar 2020 - June 2022",
           "highlights": [
@@ -87,7 +87,7 @@
           "title": "Assistant Systems Engineer",
           "subtitle": "Tata Consultancy Services • Nov 2018 - Mar 2020",
           "description": "Contributed to the development and maintenance of enterprise applications using ReactJS. Supported testing and debugging efforts to ensure software quality.",
-          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "Enterprise Apps", "Testing"],
           "date": "Nov 2018 - Mar 2020",
           "highlights": [
@@ -108,7 +108,7 @@
           "title": "Graphite - Workflow Automation Tool",
           "subtitle": "React • Redux • Enterprise",
           "description": "Built the core UI for a workflow automation tool using React and Redux to streamline business processes. Engineered reusable components for task management and team coordination.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "Redux", "Workflow Automation"],
           "date": "Sep 2024 - Present",
           "highlights": [
@@ -122,7 +122,7 @@
           "title": "ECKO Feedback Application",
           "subtitle": "React • Material-UI • Enterprise",
           "description": "Developed a customizable feedback application using React for enterprise use, with modular plugin extensions. Implemented UI using Material-UI to provide feedback functionalities via modals and pop-ups.",
-          "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "Material-UI", "Plugin Architecture"],
           "date": "Sep 2022 - Sep 2024",
           "highlights": [
@@ -136,7 +136,7 @@
           "title": "Suppliers Collaboration Product",
           "subtitle": "PWA • React • Supply Chain",
           "description": "Designed and developed a PWA using ReactJS to streamline vendor operations in a retail supply chain. Automated key processes including inventory management, data entry, and report generation.",
-          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?w=500&h=280&fit=crop&q=80",
           "tags": ["PWA", "React", "Automation"],
           "date": "June 2022 - Sep 2022",
           "highlights": [
@@ -150,7 +150,7 @@
           "title": "Clicks Progressive Web App",
           "subtitle": "B2C E-Commerce PWA",
           "description": "Built a B2C E-Commerce PWA leveraging ReactJS to provide an intuitive shopping experience. Implemented front-end features for product browsing, selection, and checkout.",
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500&h=280&fit=crop&q=80",
           "tags": ["PWA", "React", "E-commerce"],
           "date": "June 2021 - June 2022",
           "highlights": [
@@ -164,7 +164,7 @@
           "title": "Monitoring Dashboard",
           "subtitle": "Real-time PWA • React",
           "description": "Engineered a PWA with ReactJS to monitor real-time database transactions for multiple clients (BMA International, Al-Tayer Group). Implemented features for live data insights and timely fault notifications.",
-          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=280&fit=crop&q=80",
           "tags": ["PWA", "React", "Real-time Monitoring"],
           "date": "June 2019 - May 2020",
           "highlights": [
@@ -178,7 +178,7 @@
           "title": "Leumi Grant Application",
           "subtitle": "Dynamic Reporting • React",
           "description": "Developed a dynamic reporting component in React that generated and downloaded reports based on user-defined attributes. Proactively debugged and resolved front-end issues.",
-          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "Reporting", "Performance"],
           "date": "June 2020 - Nov 2020",
           "highlights": [
@@ -199,7 +199,7 @@
           "title": "Frontend Development",
           "subtitle": "Modern Web Technologies",
           "description": "Expert in React ecosystem with Redux, skilled in building scalable and high-performance web applications. Proficient in JavaScript ES6+, HTML5, and CSS3.",
-          "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&h=280&fit=crop&q=80",
           "tags": ["React", "Redux", "JavaScript", "HTML5", "CSS3"],
           "highlights": [
             "ReactJS with modern hooks and patterns",
@@ -213,7 +213,7 @@
           "title": "Backend & Database",
           "subtitle": "Server Technologies",
           "description": "Experience with NodeJS for backend services and SQL for database management. Skilled in building RESTful APIs and data persistence layers.",
-          "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=280&fit=crop&q=80",
           "tags": ["NodeJS", "SQL", "REST API"],
           "highlights": [
             "NodeJS backend development",
@@ -227,8 +227,8 @@
           "title": "DevOps & Tools",
           "subtitle": "Development Workflow",
           "description": "Proficient in modern development tools and CI/CD pipelines. Experience with Git, Grafana, Camunda, VS Code, and Postman for efficient development and deployment.",
-          "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=225&fit=crop",
-          "tags": ["Git", "CI/CD", "Grafana", "Camunda", "VS Code", "Postman"],
+          "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=500&h=280&fit=crop&q=80",
+          "tags": ["Git", "CI/CD", "Grafana", "Camunda"],
           "highlights": [
             "Git version control and workflows",
             "CI/CD pipeline implementation",
@@ -241,8 +241,8 @@
           "title": "Software Engineering",
           "subtitle": "Fundamentals & Practices",
           "description": "Strong foundation in data structures, algorithms, and object-oriented programming. Experienced in Agile methodologies, code review, and mentoring junior developers.",
-          "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=225&fit=crop",
-          "tags": ["Data Structures", "Algorithms", "OOP", "Agile", "Mentoring"],
+          "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500&h=280&fit=crop&q=80",
+          "tags": ["Data Structures", "Algorithms", "OOP", "Agile"],
           "highlights": [
             "Data structures and algorithms",
             "Object-oriented programming principles",
@@ -262,7 +262,7 @@
           "title": "Bachelor of Technology",
           "subtitle": "Information Technology",
           "description": "Graduated from Cochin University of Science And Technology with a CGPA of 7.55/10.00. Focused on core CS fundamentals including data structures, algorithms, and database systems.",
-          "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=225&fit=crop",
+          "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500&h=280&fit=crop&q=80",
           "tags": ["Computer Science", "Information Technology"],
           "date": "Graduated May 2018",
           "highlights": [
