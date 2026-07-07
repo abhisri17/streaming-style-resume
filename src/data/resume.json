@@ -220,6 +220,48 @@
         },
         {
           "id": "skill-2",
+          "title": "GenAI & Prompt Engineering",
+          "subtitle": "Applied AI Solutions",
+          "description": "Hands-on experience in building GenAI-powered workflows and crafting effective prompts for real-world use cases. Skilled in prompt design, context structuring, response optimization, and integrating AI capabilities into developer and product workflows.",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=280&fit=crop&q=80",
+          "tags": [
+            "Generative AI",
+            "Prompt Engineering",
+            "LLMs",
+            "AI Workflows",
+            "Context Design"
+          ],
+          "highlights": [
+            "Prompt design for reliable and structured outputs",
+            "Context engineering for better LLM responses",
+            "AI-assisted workflow and productivity integration",
+            "Use-case driven GenAI implementation",
+            "Response quality tuning and experimentation"
+          ]
+        },
+        {
+          "id": "skill-3",
+          "title": "Spec-Driven Development",
+          "subtitle": "Structured Delivery with Spec Kit",
+          "description": "Experience using spec-driven development practices to define requirements, implementation plans, and delivery flow with clarity. Familiar with the Spec Kit GitHub library for organizing development through specifications, improving collaboration, consistency, and execution quality.",
+          "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=280&fit=crop&q=80",
+          "tags": [
+            "Spec-Driven Development",
+            "Spec Kit",
+            "GitHub",
+            "Requirements",
+            "Engineering Workflow"
+          ],
+          "highlights": [
+            "Specification-first development approach",
+            "Structured planning before implementation",
+            "Using Spec Kit for organized engineering workflows",
+            "Clear requirement and task definition",
+            "Improved collaboration and delivery consistency"
+          ]
+        },
+        {
+          "id": "skill-4",
           "title": "Backend & Integration",
           "subtitle": "Server Technologies",
           "description": "Experience with NodeJS for backend services and API integration. Skilled in building RESTful APIs and seamless client-server communication.",
@@ -234,7 +276,7 @@
           ]
         },
         {
-          "id": "skill-3",
+          "id": "skill-5",
           "title": "DevOps & Tools",
           "subtitle": "Development Workflow",
           "description": "Skilled in implementing Continuous Integration/Continuous Deployment (CI/CD) pipelines to streamline software delivery processes. Proficient in modern development tools.",
@@ -248,7 +290,7 @@
           ]
         },
         {
-          "id": "skill-4",
+          "id": "skill-6",
           "title": "Software Engineering",
           "subtitle": "Fundamentals & Practices",
           "description": "Strong foundation in data structures, algorithms, and object-oriented programming. Experienced in Agile methodologies, code review, and mentoring junior developers.",
